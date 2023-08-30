@@ -1,4 +1,4 @@
-const Carsdata = [
+const data = [
   {
     id: 1,
     img: "https://s6.uupload.ir/files/1629920_852_rya0.png",
