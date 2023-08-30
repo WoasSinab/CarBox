@@ -1,4 +1,4 @@
-import data from "./Data";
+import data from './Data.js'
 
 const NearCar = () => {
   return (
