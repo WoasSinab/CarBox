@@ -7,7 +7,7 @@ const Hero = () => {
         {/* Heading */}
         <h1 className='text-slate-800 lg:text-5xl sm:text-3xl md:text-4xl text-2xl font-semibold'>KMC J7 2023</h1>
         {/* Buttons */}
-        <div className='flex flex-row sm:gap-x-8 gap-x-2 mb-8'>
+        <div className='flex flex-row sm:gap-x-8 gap-x-2 mb-8 md:mb-0'>
           <button href='#' className='group relative inline-block overflow-hidden rounded-sm border border-gray-100 bg-gray-200  px-6 p-4 text-xs md:text-base font-medium text-slate-800 hover:text-violet-600 focus:outline-none focus:ring active:bg-indigo-600 active:text-white'>
             {/* Button border animation */}
             <span className='ease absolute left-0 top-0 h-0 w-0 border-t-2 border-violet-600 transition-all duration-200 group-hover:w-full'></span>
