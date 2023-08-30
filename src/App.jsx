@@ -1,10 +1,11 @@
+import Hero from "./components/Hero/Hero"
 
 
 function App() {
 
   return (
-    <div>
-      <h1 className="text-7xl">Hello Carbox</h1>
+    <div className="container mx-auto">
+      <Hero />
     </div>
   )
 }
