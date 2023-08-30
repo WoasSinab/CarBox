@@ -1,4 +1,4 @@
-import data from './Data.js'
+import Carsdata from './data.js'
 
 const NearCar = () => {
   return (
@@ -9,7 +9,7 @@ const NearCar = () => {
       </div>
       {/* Cars Sec  */}
       <div className='flex lg:flex-row max-md:flex-col text-slate-800 p-6 gap-5 '>
-        {data.map((item) => (
+        {Carsdata.map((item) => (
           <div className='flex flex-col shadow-md rounded-md text-right' key={item.id}>
             <img src={item.img} className='w-full px-4 mt-8 mb-4' />
 
