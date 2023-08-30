@@ -1,6 +1,7 @@
 import Hero from "./components/Hero/Hero"
 import NearCar from "./components/NearCar/NearCar"
 import SearchField from "./components/SearchField/SearchField"
+import TopSeller from "./components/TopSeller/TopSeller"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <SearchField />
       <NearCar />
+      <TopSeller />
     </div>
   )
 }
