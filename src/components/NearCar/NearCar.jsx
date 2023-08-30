@@ -2,7 +2,7 @@ import data from "./Data";
 
 const NearCar = () => {
   return (
-    <div className='flex flex-col gap-4 mb-8'>
+    <div className='flex flex-col gap-4 mb-8 '>
       <div className='flex justify-center items-center'>
         <h1 className='text-2xl'>جدیدترین ها در اطراف شما</h1>
         <div></div>
