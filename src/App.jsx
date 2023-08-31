@@ -1,7 +1,6 @@
-
 // import Auctions from "./components/Auctions/Auctions"
 import Hero from "./components/Hero/Hero"
-// import Navbar from "./components/Navbar/Navbar"
+import Navbar from "./components/Navbar/Navbar"
 import NearCar from "./components/NearCar/NearCar"
 import SearchField from "./components/SearchField/SearchField"
 import TopBanner from "./components/TopBanner/TopBanner"
@@ -13,7 +12,7 @@ function App() {
   return (
     <div className="container mx-auto">
       <TopBanner />
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <SearchField />
       <NearCar />
