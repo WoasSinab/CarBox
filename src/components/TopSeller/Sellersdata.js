@@ -2,8 +2,9 @@ const data = [
   {
     id: 1,
     img: "https://api12.iloveimg.com/v1/download/8wxspA82n87y460v9mvwt2lstsyjclwbvmqz8h66vcxcwrq44Aqxhdq19jw03pzc8886Anm21Acshmlsb6m5rvmpArg7dgxybhmjg761qkbkAt1gqx2tkg7hwdtv7wr6h5j0A6w6xqxgb11jk42q7bAx6psqAls2myrybb0ljAtmfAqdvy6q",
-    Name: "Mersedes Bens",
+    Name: "Mersedes Benz",
     Price: "3.5 میلیارد تومان",
+    CarImg:""
   },
   {
     id: 2,

@@ -4,11 +4,11 @@ const NearCar = () => {
   return (
     <div className='flex flex-col gap-4 mb-8 '>
       <div className='flex justify-center items-center'>
-        <h1 className='text-2xl'>جدیدترین ها در اطراف شما</h1>
+        <h1 className='text-xl text-slate-800 my-4 font-semibold'>جدیدترین ها در اطراف شما</h1>
         <div></div>
       </div>
       {/* Cars Sec  */}
-      <div className='flex lg:flex-row max-md:flex-col text-slate-800 p-6 gap-5 '>
+      <div className='flex lg:flex-row max-md:flex-col text-slate-800 px-6 gap-5 '>
         {data.map((item) => (
           <div className='flex flex-col shadow-md rounded-md text-right' key={item.id}>
             <img src={item.img} className='w-full px-4 mt-8 mb-4' />
